@@ -1,0 +1,32 @@
+<h1><%= @post.title %></h1>
+<p><%= image_tag @post.photo.url if @post.photo? %></p>
+<h2><%= @post.subtitle %></h2>
+<p><%= @post.body %></p>
+<p><%= @post.user_id %></p>
+
+
+
+<hr>
+<% if user_signed_in? %>
+<% if @post.user.email == current_user.email %>
+  <%= render partial:"editnav", locals: { post: @post } %>
+<% end %>
+<% end %>
+
+<br>
+<br>
+<hr>
+<%= link_to "Leave a comment", new_post_comment_path(@post) %>
+
+<% @post.comments.each do |comment| %>
+  <hr>
+
+  <p><%= comment.content %></p>
+  <%= link_to "Show comment", post_comment_path(@post, comment.id) %>
+<% end %>
+
+<br>
+<br>
+<hr>
+
+<%= link_to 'All Posts', posts_path %>

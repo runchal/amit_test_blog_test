@@ -1,0 +1,27 @@
+<%= form_for @post do |form| %>
+
+	<ul>
+		<% @post.errors.full_messages.each do |message| %>
+			<li><%= message %>
+		<% end %>
+	</ul>
+
+	<%= form.label :title, "What's your title?" %><br>
+	<%= form.text_field :title, placeholder:"Why do you deserve to be listened to?" %>
+	<br>
+	<br>
+	<%= form.label :subtitle, "What's your subtitle?" %><br>
+	<%= form.text_field :subtitle, placeholder:"Why do you deserve to be listened to?" %>
+	<br>
+	<br>
+	<%= form.label :body, "What's your content?" %><br>
+	<%= form.text_area :body, placeholder:"Why do you deserve to be listened to?" %>
+	<br>
+	<br>
+	<%= form.label :photo %><br>
+	<%= form.file_field :photo %>
+	<%= form.hidden_field :photo_cache %>
+	<br>
+	<br>
+	<%= form.submit %>
+<% end %>

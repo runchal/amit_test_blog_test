@@ -1,0 +1,243 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"fl",
+				"float"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Project: Add Folder"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/amitrunchal/itr/amit_test_blog/app/views/posts/index.html.erb",
+		"/Users/amitrunchal/itr/amit_test_blog/app/views/posts/_editnav.html.erb",
+		"/Users/amitrunchal/itr/amit_test_blog/app/views/posts/edit.html.erb",
+		"/Users/amitrunchal/itr/amit_test_blog/app/views/posts/_form.html.erb",
+		"/Users/amitrunchal/itr/amit_test_blog/app/views/posts/new.html.erb",
+		"/Users/amitrunchal/itr/amit_test_blog/app/views/posts/show.html.erb",
+		"/Users/amitrunchal/itr/amit_test_blog/app/models/post.rb",
+		"/Users/amitrunchal/itr/amit_test_blog/db/schema.rb",
+		"/Users/amitrunchal/itr/amit_test_blog/app/controllers/posts_controller.rb",
+		"/Users/amitrunchal/itr/runchal_rails_guide/runchal_rails_guide.md",
+		"/Users/amitrunchal/itr/amit_test_blog/app/controllers/application_controller.rb",
+		"/Users/amitrunchal/itr/amit_test_blog/app/controllers/posts_controller_amit.rb",
+		"/Users/amitrunchal/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/amitrunchal/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/amitrunchal/itr/blog/app/views/posts/_post.html.erb",
+		"/Users/amitrunchal/itr/blog/app/views/posts/index.html.erb",
+		"/Users/amitrunchal/itr/blog/app/views/posts/show.html.erb",
+		"/Users/amitrunchal/itr/lesson_12/coa_partials.md",
+		"/Users/amitrunchal/itr/blog/app/views/comments/new.html.erb",
+		"/Users/amitrunchal/itr/blog/app/controllers/comments_controller.rb",
+		"/Users/amitrunchal/itr/lesson_12/slides.md",
+		"/Users/amitrunchal/itr/blog/app/views/posts/_form.html.erb",
+		"/Users/amitrunchal/itr/lesson_12/coa_nested_resources.md",
+		"/Users/amitrunchal/itr/blog/config/routes.rb",
+		"/Users/amitrunchal/itr/lesson_07_app/app/controllers/books_controller.rb",
+		"/Users/amitrunchal/itr/book_database/config/routes.rb",
+		"/Users/amitrunchal/Dropbox/_Projects/ClosedScholar/css/closedscholar.css",
+		"/Users/amitrunchal/Dropbox/_Projects/ClosedScholar/bio/index.html",
+		"/Users/amitrunchal/Dropbox/_Projects/ClosedScholar/index.html",
+		"/Users/amitrunchal/itr/demo/config/routes.rb",
+		"/Users/amitrunchal/itr/demo/app/controllers/music_controller.rb",
+		"/Users/amitrunchal/itr/lesson_09/slides.md",
+		"/Users/amitrunchal/itr/users_app/config/locales/en.yml",
+		"/Users/amitrunchal/itr/users_app/app/views/users/new.html.erb",
+		"/Users/amitrunchal/itr/users_app/app/views/users/show.html.erb",
+		"/Users/amitrunchal/itr/users_app/app/models/user.rb",
+		"/Users/amitrunchal/itr/users_app/app/controllers/users_controller.rb",
+		"/Users/amitrunchal/itr/users_app/config/routes.rb",
+		"/Users/amitrunchal/itr/book_reviews/config/routes.rb",
+		"/Users/amitrunchal/itr/book_reviews/app/views/reviews/show.html.erb",
+		"/Users/amitrunchal/itr/book_reviews/app/views/reviews/index.html.erb",
+		"/Users/amitrunchal/itr/book_reviews/app/controllers/reviews_controller.rb",
+		"/Users/amitrunchal/itr/book_reviews/app/models/review.rb",
+		"/Users/amitrunchal/itr/book_reviews/app/models/book.rb",
+		"/Users/amitrunchal/itr/book_reviews/config/application.rb",
+		"/Users/amitrunchal/itr/lesson_04/slides.md",
+		"/Users/amitrunchal/itr/lesson_04/ex.txt",
+		"/Users/amitrunchal/itr/89fc25d8033a68fdec1d/coa_data_types.rb",
+		"/Users/amitrunchal/itr/homework_01.rb",
+		"/Users/amitrunchal/itr/lesson_04/uber.txt",
+		"/Users/amitrunchal/itr/lesson_04/hell.txt",
+		"/usr/local/rvm/gems/ruby-1.9.3-p194/gems/coda-0.0.2/bin/coda",
+		"/Users/amitrunchal/itr/lesson_04/test.txt",
+		"/Users/amitrunchal/.gitconfig",
+		"/Users/amitrunchal/itr/my_first_script/my_first_script.rb",
+		"/Users/amitrunchal/itr/my_first_script/todo.md"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"@book",
+			"end",
+			"rails"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"edi",
+				"app/views/posts/edit.html.erb"
+			],
+			[
+				"new",
+				"app/views/posts/new.html.erb"
+			],
+			[
+				"sch",
+				"db/schema.rb"
+			],
+			[
+				"inde",
+				"app/views/posts/index.html.erb"
+			],
+			[
+				"psot",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"en.y",
+				"config/locales/en.yml"
+			],
+			[
+				"config/ro",
+				"config/routes.rb"
+			],
+			[
+				"config/",
+				"config/application.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/amitrunchal/itr/book_reviews.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
