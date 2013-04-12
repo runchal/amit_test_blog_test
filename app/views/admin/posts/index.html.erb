@@ -1,0 +1,22 @@
+<h1>These are all the posts ever made</h1>
+<% if admin_signed_in? %>
+  <p>Signed in as... <%= current_admin.email %></p>
+<% else %>
+  <p>This blog is way more fun if you're signed in. But you're not.<p>
+<% end %>
+
+<% @posts.each do |post| %>
+  <h1><%= post.title %></h1>
+  <p><%= image_tag post.photo.url if post.photo? %></p>
+  <h2><%= post.subtitle %></h2>
+  <p>Author: <%= post.user.email %></p>
+  <p><%= post.body %></p>
+  <p><%= link_to 'Permalink', admin_post_url(post) %></p>
+  
+  <%= render partial:"editnav", locals: { post: post } %>
+  
+  <hr>
+
+<% end %>
+
+<p><%= link_to 'Write a Post', new_admin_post_path if admin_signed_in? %></p>

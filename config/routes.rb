@@ -1,5 +1,7 @@
 AmitTestBlog::Application.routes.draw do
 
+  devise_for :admins
+
   devise_for :users
 
   root to: "posts#index"
@@ -8,6 +10,10 @@ AmitTestBlog::Application.routes.draw do
     resources :comments, only: [:new, :show, :create]
   end
 
+  namespace :admin do
+    resources :posts
+    resources :comments
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
