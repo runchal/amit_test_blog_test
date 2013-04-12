@@ -4,6 +4,7 @@ class Post < ActiveRecord::Base
   attr_accessible :body, :subtitle, :title, :user_id, :photo, :photo_cache
 
   belongs_to :user
+  belongs_to :admin
 
   has_many :comments
 

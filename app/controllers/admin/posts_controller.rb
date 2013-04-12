@@ -46,7 +46,7 @@ class Admin::PostsController < ApplicationController
 
     respond_to do |format|
       if @post.update_attributes(params[:post])
-        format.html { redirect_to admin_posts_path, notice: 'Your post was successfully updated. Dummy.' }
+        format.html { redirect_to admin_posts_path, notice: 'Your post was successfully updated. Admins rule.' }
       else
         format.html { render action: "edit" }
       end
