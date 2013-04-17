@@ -14,5 +14,14 @@ class Post < ActiveRecord::Base
 
   validates :title, presence: true
 
-  validates :user_id, presence: true
+  # validate :user_or_admin_exists
+
+  # private
+
+  # def user_or_admin_exists
+  #   if !(user_id.blank? ^ admin_id.blank?)
+  #     errors.add_to_base("Need either a user or admin ID")
+  #   end
+  # end
+
 end

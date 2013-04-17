@@ -22,7 +22,7 @@ class Admin::PostsController < ApplicationController
   end
 
   def new
-    @post = current_admin.posts.new
+    @post = current_admin.posts.new(params[:id])
     
     respond_to do |format|
       format.html

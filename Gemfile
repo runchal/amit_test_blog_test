@@ -8,6 +8,8 @@ gem "carrierwave", "~> 0.8.0"
 
 gem "rmagick"
 
+gem "twitter-bootstrap-rails"
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
